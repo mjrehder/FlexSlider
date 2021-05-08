@@ -3,13 +3,67 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		6903A37226455EB50020350C /* FlexSlider.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6903A36826455EB50020350C /* FlexSlider.framework */; };
 		6903A37726455EB50020350C /* FlexSliderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6903A37626455EB50020350C /* FlexSliderTests.swift */; };
 		6903A37926455EB50020350C /* FlexSlider.h in Headers */ = {isa = PBXBuildFile; fileRef = 6903A36B26455EB50020350C /* FlexSlider.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6903A388264562060020350C /* FlexMutableSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6903A382264562060020350C /* FlexMutableSlider.swift */; };
+		6903A389264562060020350C /* FlexMutableSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6903A382264562060020350C /* FlexMutableSlider.swift */; };
+		6903A38A264562060020350C /* FlexSnapStepper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6903A383264562060020350C /* FlexSnapStepper.swift */; };
+		6903A38B264562060020350C /* FlexSnapStepper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6903A383264562060020350C /* FlexSnapStepper.swift */; };
+		6903A38C264562060020350C /* FlexSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6903A384264562060020350C /* FlexSlider.swift */; };
+		6903A38D264562060020350C /* FlexSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6903A384264562060020350C /* FlexSlider.swift */; };
+		6903A38E264562060020350C /* FlexFlickButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6903A385264562060020350C /* FlexFlickButton.swift */; };
+		6903A38F264562060020350C /* FlexFlickButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6903A385264562060020350C /* FlexFlickButton.swift */; };
+		6903A390264562060020350C /* FlexDoubleSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6903A386264562060020350C /* FlexDoubleSlider.swift */; };
+		6903A391264562060020350C /* FlexDoubleSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6903A386264562060020350C /* FlexDoubleSlider.swift */; };
+		6903A392264562060020350C /* GenericStyleSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6903A387264562060020350C /* GenericStyleSlider.swift */; };
+		6903A393264562060020350C /* GenericStyleSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6903A387264562060020350C /* GenericStyleSlider.swift */; };
+		6903A39D2645632C0020350C /* FlexFlickActionItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6903A3962645632C0020350C /* FlexFlickActionItem.swift */; };
+		6903A39E2645632C0020350C /* FlexFlickActionItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6903A3962645632C0020350C /* FlexFlickActionItem.swift */; };
+		6903A39F2645632C0020350C /* SliderThumbSizeInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6903A3972645632C0020350C /* SliderThumbSizeInfo.swift */; };
+		6903A3A02645632C0020350C /* SliderThumbSizeInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6903A3972645632C0020350C /* SliderThumbSizeInfo.swift */; };
+		6903A3A12645632C0020350C /* MutableSliderItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6903A3982645632C0020350C /* MutableSliderItem.swift */; };
+		6903A3A22645632C0020350C /* MutableSliderItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6903A3982645632C0020350C /* MutableSliderItem.swift */; };
+		6903A3A32645632C0020350C /* MutableSliderThumbItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6903A3992645632C0020350C /* MutableSliderThumbItem.swift */; };
+		6903A3A42645632C0020350C /* MutableSliderThumbItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6903A3992645632C0020350C /* MutableSliderThumbItem.swift */; };
+		6903A3A52645632C0020350C /* SliderItemSizeInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6903A39A2645632C0020350C /* SliderItemSizeInfo.swift */; };
+		6903A3A62645632C0020350C /* SliderItemSizeInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6903A39A2645632C0020350C /* SliderItemSizeInfo.swift */; };
+		6903A3A72645632C0020350C /* MutableSliderSeparatorItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6903A39B2645632C0020350C /* MutableSliderSeparatorItem.swift */; };
+		6903A3A82645632C0020350C /* MutableSliderSeparatorItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6903A39B2645632C0020350C /* MutableSliderSeparatorItem.swift */; };
+		6903A3A92645632C0020350C /* SliderSeparatorSizeInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6903A39C2645632C0020350C /* SliderSeparatorSizeInfo.swift */; };
+		6903A3AA2645632C0020350C /* SliderSeparatorSizeInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6903A39C2645632C0020350C /* SliderSeparatorSizeInfo.swift */; };
+		6903A3B1264563760020350C /* StyledSliderItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6903A3AB264563760020350C /* StyledSliderItem.swift */; };
+		6903A3B2264563760020350C /* StyledSliderItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6903A3AB264563760020350C /* StyledSliderItem.swift */; };
+		6903A3B3264563760020350C /* StyledControlDirection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6903A3AC264563760020350C /* StyledControlDirection.swift */; };
+		6903A3B4264563760020350C /* StyledControlDirection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6903A3AC264563760020350C /* StyledControlDirection.swift */; };
+		6903A3B5264563760020350C /* StyledSliderThumbList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6903A3AD264563760020350C /* StyledSliderThumbList.swift */; };
+		6903A3B6264563760020350C /* StyledSliderThumbList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6903A3AD264563760020350C /* StyledSliderThumbList.swift */; };
+		6903A3B7264563760020350C /* StyledSliderThumbBehaviour.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6903A3AE264563760020350C /* StyledSliderThumbBehaviour.swift */; };
+		6903A3B8264563760020350C /* StyledSliderThumbBehaviour.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6903A3AE264563760020350C /* StyledSliderThumbBehaviour.swift */; };
+		6903A3B9264563760020350C /* StyledSliderThumb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6903A3AF264563760020350C /* StyledSliderThumb.swift */; };
+		6903A3BA264563760020350C /* StyledSliderThumb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6903A3AF264563760020350C /* StyledSliderThumb.swift */; };
+		6903A3BB264563760020350C /* StyledSliderSeparator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6903A3B0264563760020350C /* StyledSliderSeparator.swift */; };
+		6903A3BC264563760020350C /* StyledSliderSeparator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6903A3B0264563760020350C /* StyledSliderSeparator.swift */; };
+		6903A3BF264566540020350C /* SnappingThumbBehaviour.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6903A3BE264566540020350C /* SnappingThumbBehaviour.swift */; };
+		6903A3C0264566540020350C /* SnappingThumbBehaviour.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6903A3BE264566540020350C /* SnappingThumbBehaviour.swift */; };
+		6903A3C2264566700020350C /* PositionUpdateTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6903A3C1264566700020350C /* PositionUpdateTimer.swift */; };
+		6903A3C3264566700020350C /* PositionUpdateTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6903A3C1264566700020350C /* PositionUpdateTimer.swift */; };
+		6903A3C92646A03D0020350C /* UIColorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6903A3C82646A03D0020350C /* UIColorExtensions.swift */; };
+		6903A3CA2646A03D0020350C /* UIColorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6903A3C82646A03D0020350C /* UIColorExtensions.swift */; };
+		6903A3CC2646A14D0020350C /* StyledSliderElementFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6903A3CB2646A14D0020350C /* StyledSliderElementFactory.swift */; };
+		6903A3CD2646A14D0020350C /* StyledSliderElementFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6903A3CB2646A14D0020350C /* StyledSliderElementFactory.swift */; };
+		6903A3CF2646A2DB0020350C /* StyledLabelExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6903A3CE2646A2DB0020350C /* StyledLabelExtension.swift */; };
+		6903A3D02646A2DB0020350C /* StyledLabelExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6903A3CE2646A2DB0020350C /* StyledLabelExtension.swift */; };
+		6903A3D22646A3270020350C /* NSAttributedStringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6903A3D12646A3270020350C /* NSAttributedStringExtension.swift */; };
+		6903A3D32646A3270020350C /* NSAttributedStringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6903A3D12646A3270020350C /* NSAttributedStringExtension.swift */; };
+		6903A3D52646A3550020350C /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6903A3D42646A3550020350C /* StringExtension.swift */; };
+		6903A3D62646A3550020350C /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6903A3D42646A3550020350C /* StringExtension.swift */; };
+		7ECADEAAE5FB6DFD61235A50 /* Pods_FlexSlider_FlexSliderTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18305B6EA2550C8741B9A6DC /* Pods_FlexSlider_FlexSliderTests.framework */; };
+		C11539AD8E4226C3BACE0745 /* Pods_FlexSlider.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F05E7646A7B6A5279AA7233D /* Pods_FlexSlider.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,12 +77,44 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		18305B6EA2550C8741B9A6DC /* Pods_FlexSlider_FlexSliderTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FlexSlider_FlexSliderTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		197497E3A0669957DEA5C8A4 /* Pods-FlexSlider-FlexSliderTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlexSlider-FlexSliderTests.debug.xcconfig"; path = "Target Support Files/Pods-FlexSlider-FlexSliderTests/Pods-FlexSlider-FlexSliderTests.debug.xcconfig"; sourceTree = "<group>"; };
+		39F984C7C4E97DCC317F246A /* Pods-FlexSlider.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlexSlider.debug.xcconfig"; path = "Target Support Files/Pods-FlexSlider/Pods-FlexSlider.debug.xcconfig"; sourceTree = "<group>"; };
+		5038D58F316F03751A77C989 /* Pods-FlexSlider-FlexSliderTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlexSlider-FlexSliderTests.release.xcconfig"; path = "Target Support Files/Pods-FlexSlider-FlexSliderTests/Pods-FlexSlider-FlexSliderTests.release.xcconfig"; sourceTree = "<group>"; };
 		6903A36826455EB50020350C /* FlexSlider.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FlexSlider.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6903A36B26455EB50020350C /* FlexSlider.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlexSlider.h; sourceTree = "<group>"; };
 		6903A36C26455EB50020350C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6903A37126455EB50020350C /* FlexSliderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlexSliderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6903A37626455EB50020350C /* FlexSliderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlexSliderTests.swift; sourceTree = "<group>"; };
 		6903A37826455EB50020350C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6903A382264562060020350C /* FlexMutableSlider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlexMutableSlider.swift; sourceTree = "<group>"; };
+		6903A383264562060020350C /* FlexSnapStepper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlexSnapStepper.swift; sourceTree = "<group>"; };
+		6903A384264562060020350C /* FlexSlider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlexSlider.swift; sourceTree = "<group>"; };
+		6903A385264562060020350C /* FlexFlickButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlexFlickButton.swift; sourceTree = "<group>"; };
+		6903A386264562060020350C /* FlexDoubleSlider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlexDoubleSlider.swift; sourceTree = "<group>"; };
+		6903A387264562060020350C /* GenericStyleSlider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GenericStyleSlider.swift; sourceTree = "<group>"; };
+		6903A3962645632C0020350C /* FlexFlickActionItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlexFlickActionItem.swift; sourceTree = "<group>"; };
+		6903A3972645632C0020350C /* SliderThumbSizeInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SliderThumbSizeInfo.swift; sourceTree = "<group>"; };
+		6903A3982645632C0020350C /* MutableSliderItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MutableSliderItem.swift; sourceTree = "<group>"; };
+		6903A3992645632C0020350C /* MutableSliderThumbItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MutableSliderThumbItem.swift; sourceTree = "<group>"; };
+		6903A39A2645632C0020350C /* SliderItemSizeInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SliderItemSizeInfo.swift; sourceTree = "<group>"; };
+		6903A39B2645632C0020350C /* MutableSliderSeparatorItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MutableSliderSeparatorItem.swift; sourceTree = "<group>"; };
+		6903A39C2645632C0020350C /* SliderSeparatorSizeInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SliderSeparatorSizeInfo.swift; sourceTree = "<group>"; };
+		6903A3AB264563760020350C /* StyledSliderItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StyledSliderItem.swift; sourceTree = "<group>"; };
+		6903A3AC264563760020350C /* StyledControlDirection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StyledControlDirection.swift; sourceTree = "<group>"; };
+		6903A3AD264563760020350C /* StyledSliderThumbList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StyledSliderThumbList.swift; sourceTree = "<group>"; };
+		6903A3AE264563760020350C /* StyledSliderThumbBehaviour.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StyledSliderThumbBehaviour.swift; sourceTree = "<group>"; };
+		6903A3AF264563760020350C /* StyledSliderThumb.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StyledSliderThumb.swift; sourceTree = "<group>"; };
+		6903A3B0264563760020350C /* StyledSliderSeparator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StyledSliderSeparator.swift; sourceTree = "<group>"; };
+		6903A3BE264566540020350C /* SnappingThumbBehaviour.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnappingThumbBehaviour.swift; sourceTree = "<group>"; };
+		6903A3C1264566700020350C /* PositionUpdateTimer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PositionUpdateTimer.swift; sourceTree = "<group>"; };
+		6903A3C82646A03D0020350C /* UIColorExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtensions.swift; sourceTree = "<group>"; };
+		6903A3CB2646A14D0020350C /* StyledSliderElementFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StyledSliderElementFactory.swift; sourceTree = "<group>"; };
+		6903A3CE2646A2DB0020350C /* StyledLabelExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StyledLabelExtension.swift; sourceTree = "<group>"; };
+		6903A3D12646A3270020350C /* NSAttributedStringExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSAttributedStringExtension.swift; sourceTree = "<group>"; };
+		6903A3D42646A3550020350C /* StringExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+		72CF148940E1549844F81234 /* Pods-FlexSlider.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlexSlider.release.xcconfig"; path = "Target Support Files/Pods-FlexSlider/Pods-FlexSlider.release.xcconfig"; sourceTree = "<group>"; };
+		F05E7646A7B6A5279AA7233D /* Pods_FlexSlider.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FlexSlider.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +122,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C11539AD8E4226C3BACE0745 /* Pods_FlexSlider.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +131,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6903A37226455EB50020350C /* FlexSlider.framework in Frameworks */,
+				7ECADEAAE5FB6DFD61235A50 /* Pods_FlexSlider_FlexSliderTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,6 +144,8 @@
 				6903A36A26455EB50020350C /* FlexSlider */,
 				6903A37526455EB50020350C /* FlexSliderTests */,
 				6903A36926455EB50020350C /* Products */,
+				B7DE717D6785B4F06460635E /* Pods */,
+				B52441F408454A69E0616598 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -71,6 +161,16 @@
 		6903A36A26455EB50020350C /* FlexSlider */ = {
 			isa = PBXGroup;
 			children = (
+				6903A3C72646A0270020350C /* Extensions */,
+				6903A3BD264565E00020350C /* Control */,
+				6903A395264563100020350C /* Model */,
+				6903A394264562B80020350C /* StyledComponents */,
+				6903A386264562060020350C /* FlexDoubleSlider.swift */,
+				6903A385264562060020350C /* FlexFlickButton.swift */,
+				6903A382264562060020350C /* FlexMutableSlider.swift */,
+				6903A384264562060020350C /* FlexSlider.swift */,
+				6903A383264562060020350C /* FlexSnapStepper.swift */,
+				6903A387264562060020350C /* GenericStyleSlider.swift */,
 				6903A36B26455EB50020350C /* FlexSlider.h */,
 				6903A36C26455EB50020350C /* Info.plist */,
 			);
@@ -84,6 +184,74 @@
 				6903A37826455EB50020350C /* Info.plist */,
 			);
 			path = FlexSliderTests;
+			sourceTree = "<group>";
+		};
+		6903A394264562B80020350C /* StyledComponents */ = {
+			isa = PBXGroup;
+			children = (
+				6903A3AC264563760020350C /* StyledControlDirection.swift */,
+				6903A3AB264563760020350C /* StyledSliderItem.swift */,
+				6903A3B0264563760020350C /* StyledSliderSeparator.swift */,
+				6903A3AF264563760020350C /* StyledSliderThumb.swift */,
+				6903A3AE264563760020350C /* StyledSliderThumbBehaviour.swift */,
+				6903A3AD264563760020350C /* StyledSliderThumbList.swift */,
+				6903A3CB2646A14D0020350C /* StyledSliderElementFactory.swift */,
+			);
+			path = StyledComponents;
+			sourceTree = "<group>";
+		};
+		6903A395264563100020350C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6903A3962645632C0020350C /* FlexFlickActionItem.swift */,
+				6903A3982645632C0020350C /* MutableSliderItem.swift */,
+				6903A39B2645632C0020350C /* MutableSliderSeparatorItem.swift */,
+				6903A3992645632C0020350C /* MutableSliderThumbItem.swift */,
+				6903A39A2645632C0020350C /* SliderItemSizeInfo.swift */,
+				6903A39C2645632C0020350C /* SliderSeparatorSizeInfo.swift */,
+				6903A3972645632C0020350C /* SliderThumbSizeInfo.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6903A3BD264565E00020350C /* Control */ = {
+			isa = PBXGroup;
+			children = (
+				6903A3BE264566540020350C /* SnappingThumbBehaviour.swift */,
+				6903A3C1264566700020350C /* PositionUpdateTimer.swift */,
+			);
+			path = Control;
+			sourceTree = "<group>";
+		};
+		6903A3C72646A0270020350C /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				6903A3C82646A03D0020350C /* UIColorExtensions.swift */,
+				6903A3CE2646A2DB0020350C /* StyledLabelExtension.swift */,
+				6903A3D12646A3270020350C /* NSAttributedStringExtension.swift */,
+				6903A3D42646A3550020350C /* StringExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		B52441F408454A69E0616598 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F05E7646A7B6A5279AA7233D /* Pods_FlexSlider.framework */,
+				18305B6EA2550C8741B9A6DC /* Pods_FlexSlider_FlexSliderTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B7DE717D6785B4F06460635E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				39F984C7C4E97DCC317F246A /* Pods-FlexSlider.debug.xcconfig */,
+				72CF148940E1549844F81234 /* Pods-FlexSlider.release.xcconfig */,
+				197497E3A0669957DEA5C8A4 /* Pods-FlexSlider-FlexSliderTests.debug.xcconfig */,
+				5038D58F316F03751A77C989 /* Pods-FlexSlider-FlexSliderTests.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -104,6 +272,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6903A37C26455EB50020350C /* Build configuration list for PBXNativeTarget "FlexSlider" */;
 			buildPhases = (
+				52F31F36312AA47F16B7FAEF /* [CP] Check Pods Manifest.lock */,
 				6903A36326455EB50020350C /* Headers */,
 				6903A36426455EB50020350C /* Sources */,
 				6903A36526455EB50020350C /* Frameworks */,
@@ -122,9 +291,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6903A37F26455EB50020350C /* Build configuration list for PBXNativeTarget "FlexSliderTests" */;
 			buildPhases = (
+				9D88B753FC0892CFC43C4D19 /* [CP] Check Pods Manifest.lock */,
 				6903A36D26455EB50020350C /* Sources */,
 				6903A36E26455EB50020350C /* Frameworks */,
 				6903A36F26455EB50020350C /* Resources */,
+				2270ECB4460153131392E186 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -147,6 +318,7 @@
 				TargetAttributes = {
 					6903A36726455EB50020350C = {
 						CreatedOnToolsVersion = 12.5;
+						LastSwiftMigration = 1250;
 					};
 					6903A37026455EB50020350C = {
 						CreatedOnToolsVersion = 12.5;
@@ -189,11 +361,101 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2270ECB4460153131392E186 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FlexSlider-FlexSliderTests/Pods-FlexSlider-FlexSliderTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FlexSlider-FlexSliderTests/Pods-FlexSlider-FlexSliderTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FlexSlider-FlexSliderTests/Pods-FlexSlider-FlexSliderTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		52F31F36312AA47F16B7FAEF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FlexSlider-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9D88B753FC0892CFC43C4D19 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FlexSlider-FlexSliderTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		6903A36426455EB50020350C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6903A3D22646A3270020350C /* NSAttributedStringExtension.swift in Sources */,
+				6903A3C2264566700020350C /* PositionUpdateTimer.swift in Sources */,
+				6903A392264562060020350C /* GenericStyleSlider.swift in Sources */,
+				6903A38E264562060020350C /* FlexFlickButton.swift in Sources */,
+				6903A3CC2646A14D0020350C /* StyledSliderElementFactory.swift in Sources */,
+				6903A3B9264563760020350C /* StyledSliderThumb.swift in Sources */,
+				6903A38C264562060020350C /* FlexSlider.swift in Sources */,
+				6903A3BF264566540020350C /* SnappingThumbBehaviour.swift in Sources */,
+				6903A3A32645632C0020350C /* MutableSliderThumbItem.swift in Sources */,
+				6903A390264562060020350C /* FlexDoubleSlider.swift in Sources */,
+				6903A3B3264563760020350C /* StyledControlDirection.swift in Sources */,
+				6903A3A12645632C0020350C /* MutableSliderItem.swift in Sources */,
+				6903A38A264562060020350C /* FlexSnapStepper.swift in Sources */,
+				6903A3B7264563760020350C /* StyledSliderThumbBehaviour.swift in Sources */,
+				6903A388264562060020350C /* FlexMutableSlider.swift in Sources */,
+				6903A3A72645632C0020350C /* MutableSliderSeparatorItem.swift in Sources */,
+				6903A3CF2646A2DB0020350C /* StyledLabelExtension.swift in Sources */,
+				6903A3B5264563760020350C /* StyledSliderThumbList.swift in Sources */,
+				6903A3A92645632C0020350C /* SliderSeparatorSizeInfo.swift in Sources */,
+				6903A3A52645632C0020350C /* SliderItemSizeInfo.swift in Sources */,
+				6903A3C92646A03D0020350C /* UIColorExtensions.swift in Sources */,
+				6903A39F2645632C0020350C /* SliderThumbSizeInfo.swift in Sources */,
+				6903A3B1264563760020350C /* StyledSliderItem.swift in Sources */,
+				6903A39D2645632C0020350C /* FlexFlickActionItem.swift in Sources */,
+				6903A3D52646A3550020350C /* StringExtension.swift in Sources */,
+				6903A3BB264563760020350C /* StyledSliderSeparator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -201,6 +463,32 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6903A3A82645632C0020350C /* MutableSliderSeparatorItem.swift in Sources */,
+				6903A3C3264566700020350C /* PositionUpdateTimer.swift in Sources */,
+				6903A3A62645632C0020350C /* SliderItemSizeInfo.swift in Sources */,
+				6903A389264562060020350C /* FlexMutableSlider.swift in Sources */,
+				6903A3A42645632C0020350C /* MutableSliderThumbItem.swift in Sources */,
+				6903A3D62646A3550020350C /* StringExtension.swift in Sources */,
+				6903A3A02645632C0020350C /* SliderThumbSizeInfo.swift in Sources */,
+				6903A3BA264563760020350C /* StyledSliderThumb.swift in Sources */,
+				6903A3B2264563760020350C /* StyledSliderItem.swift in Sources */,
+				6903A3BC264563760020350C /* StyledSliderSeparator.swift in Sources */,
+				6903A3B8264563760020350C /* StyledSliderThumbBehaviour.swift in Sources */,
+				6903A3B6264563760020350C /* StyledSliderThumbList.swift in Sources */,
+				6903A3A22645632C0020350C /* MutableSliderItem.swift in Sources */,
+				6903A39E2645632C0020350C /* FlexFlickActionItem.swift in Sources */,
+				6903A38D264562060020350C /* FlexSlider.swift in Sources */,
+				6903A38B264562060020350C /* FlexSnapStepper.swift in Sources */,
+				6903A3D02646A2DB0020350C /* StyledLabelExtension.swift in Sources */,
+				6903A3CA2646A03D0020350C /* UIColorExtensions.swift in Sources */,
+				6903A3D32646A3270020350C /* NSAttributedStringExtension.swift in Sources */,
+				6903A3AA2645632C0020350C /* SliderSeparatorSizeInfo.swift in Sources */,
+				6903A38F264562060020350C /* FlexFlickButton.swift in Sources */,
+				6903A3CD2646A14D0020350C /* StyledSliderElementFactory.swift in Sources */,
+				6903A393264562060020350C /* GenericStyleSlider.swift in Sources */,
+				6903A391264562060020350C /* FlexDoubleSlider.swift in Sources */,
+				6903A3B4264563760020350C /* StyledControlDirection.swift in Sources */,
+				6903A3C0264566540020350C /* SnappingThumbBehaviour.swift in Sources */,
 				6903A37726455EB50020350C /* FlexSliderTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -268,7 +556,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -326,7 +614,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -340,7 +628,9 @@
 		};
 		6903A37D26455EB50020350C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39F984C7C4E97DCC317F246A /* Pods-FlexSlider.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = V7Y9TF9C7U;
@@ -349,6 +639,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = FlexSlider/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -357,6 +648,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.rehsco.FlexSlider;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -364,7 +657,9 @@
 		};
 		6903A37E26455EB50020350C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 72CF148940E1549844F81234 /* Pods-FlexSlider.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = V7Y9TF9C7U;
@@ -373,6 +668,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = FlexSlider/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -381,6 +677,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.rehsco.FlexSlider;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -388,7 +685,9 @@
 		};
 		6903A38026455EB50020350C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 197497E3A0669957DEA5C8A4 /* Pods-FlexSlider-FlexSliderTests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = V7Y9TF9C7U;
 				INFOPLIST_FILE = FlexSliderTests/Info.plist;
@@ -406,7 +705,9 @@
 		};
 		6903A38126455EB50020350C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5038D58F316F03751A77C989 /* Pods-FlexSlider-FlexSliderTests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = V7Y9TF9C7U;
 				INFOPLIST_FILE = FlexSliderTests/Info.plist;
