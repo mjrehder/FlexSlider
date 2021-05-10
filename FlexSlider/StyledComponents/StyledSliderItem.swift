@@ -31,11 +31,11 @@ import UIKit
 import StyledLabel
 
 open class StyledSliderItem: StyledLabel {
-    var index = 0
-    var backgroundIcon: UIImage?
-    var sizeInfo: SliderItemSizeInfo?
+    open var index = 0
+    open var backgroundIcon: UIImage?
+    open var sizeInfo: SliderItemSizeInfo?
     // Relative offset within the slider towards the boundaries in the principal direction. Centered in slider == 1, at the edge == 0
-    var relativeEdgeOffset: CGFloat?
+    open var relativeEdgeOffset: CGFloat?
 
     fileprivate var backgroundShape = CALayer()
     

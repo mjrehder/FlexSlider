@@ -29,8 +29,8 @@
 
 import UIKit
 
-final internal class SnappingThumbBehaviour: UIDynamicBehavior {
-    init(item: UIDynamicItem?, snapToPoint point: CGPoint, damping: CGFloat = 0.25) {
+open class SnappingThumbBehaviour: UIDynamicBehavior {
+    public init(item: UIDynamicItem?, snapToPoint point: CGPoint, damping: CGFloat = 0.25) {
         super.init()
         
         if let _item = item {

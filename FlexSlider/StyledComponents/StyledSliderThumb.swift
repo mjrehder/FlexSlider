@@ -32,20 +32,20 @@ import StyledLabel
 import FlexControls
 
 open class StyledSliderThumb: StyledSliderItem {
-    var snappingBehavior = SnappingThumbBehaviour(item: nil, snapToPoint: CGPoint.zero)
-    var behaviour: StyledSliderThumbBehaviour = .freeform
+    open var snappingBehavior = SnappingThumbBehaviour(item: nil, snapToPoint: CGPoint.zero)
+    open var behaviour: StyledSliderThumbBehaviour = .freeform
 
     // Used internally when relatively sliding
     var tempValue: Double?
     
     // Special triggering of value change events. Should be used in combination with snapping behaviour.
     // Events are only fired once per swipe-touch
-    var triggerEventAbove: Double?
-    var triggerEventBelow: Double?
+    open var triggerEventAbove: Double?
+    open var triggerEventBelow: Double?
     
     // Used internally
-    var eventTriggered = false
+    open var eventTriggered = false
     
-    var upperLimit = Double.infinity
-    var lowerLimit = -Double.infinity
+    open var upperLimit = Double.infinity
+    open var lowerLimit = -Double.infinity
 }

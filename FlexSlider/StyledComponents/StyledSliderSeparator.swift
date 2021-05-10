@@ -31,7 +31,7 @@ import UIKit
 import StyledLabel
 
 open class StyledSliderSeparator: StyledSliderItem {
-    var useOpacityForSizing = true
+    open var useOpacityForSizing = true
     
     var assignedGestures: [UIGestureRecognizer] = []
     

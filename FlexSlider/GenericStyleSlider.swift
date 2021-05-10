@@ -576,7 +576,7 @@ public protocol GenericStyleSliderSeparatorTouchDelegate {
         return self.separatorLabels[thumbIndex+1]
     }
     
-    func getThumbSize(_ thumb: StyledSliderThumb) -> CGSize {
+    open func getThumbSize(_ thumb: StyledSliderThumb) -> CGSize {
         let pSize = self.getPreferredThumbSize(thumb)
         
         var resSize = pSize
