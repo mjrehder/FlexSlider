@@ -74,8 +74,8 @@ public protocol GenericStyleSliderSeparatorTouchDelegate {
     var touchesBeganPoint = CGPoint.zero
     var userIsSliding = false
     
-    var thumbList = StyledSliderThumbList()
-    var separatorLabels: Array<StyledSliderSeparator> = []
+    open var thumbList = StyledSliderThumbList()
+    open var separatorLabels: Array<StyledSliderSeparator> = []
     
     // Animations
     let dynamicButtonAnimator = UIDynamicAnimator()
@@ -456,9 +456,7 @@ public protocol GenericStyleSliderSeparatorTouchDelegate {
         }
     }
     
-    // MARK: - Private Style
-    
-    func applyThumbStyle(_ style: FlexShapeStyle) {
+    open func applyThumbStyle(_ style: FlexShapeStyle) {
         for thumb in self.thumbList.thumbs {
             thumb.backgroundColor = self.sliderDelegate?.colorOfThumb(thumb.index) ?? thumbBackgroundColor ?? backgroundColor?.lighter()
             thumb.style       = style.style
@@ -468,7 +466,7 @@ public protocol GenericStyleSliderSeparatorTouchDelegate {
         }
     }
     
-    func applySeparatorStyle(_ style: FlexShapeStyle) {
+    open func applySeparatorStyle(_ style: FlexShapeStyle) {
         for sep in self.separatorLabels {
             sep.style = style.style
             sep.backgroundColor = .clear
@@ -478,7 +476,9 @@ public protocol GenericStyleSliderSeparatorTouchDelegate {
         }
     }
     
-    func createSeparatorLayer(_ layerRect: CGRect) -> CAShapeLayer {
+    // MARK: - Private Style
+    
+    open func createSeparatorLayer(_ layerRect: CGRect) -> CAShapeLayer {
         assert(layerRect.size.width > 0 && layerRect.size.height > 0)
         
         // Add layer with separator background colors
@@ -531,7 +531,7 @@ public protocol GenericStyleSliderSeparatorTouchDelegate {
     
     // MARK: - Private View
     
-    func sizeOfTextLabel(_ label: StyledLabel) -> CGSize? {
+    open func sizeOfTextLabel(_ label: StyledLabel) -> CGSize? {
         if let font = label.font, let text = label.text {
             let textString = text as NSString
             let textAttributes = [NSAttributedString.Key.font: font]
@@ -572,7 +572,7 @@ public protocol GenericStyleSliderSeparatorTouchDelegate {
         }
     }
     
-    func separatorForThumb(_ thumbIndex: Int) -> StyledSliderSeparator {
+    open func separatorForThumb(_ thumbIndex: Int) -> StyledSliderSeparator {
         return self.separatorLabels[thumbIndex+1]
     }
     
@@ -860,7 +860,7 @@ public protocol GenericStyleSliderSeparatorTouchDelegate {
         }
     }
     
-    @objc func sliderPanned(_ sender: UIPanGestureRecognizer) {
+    @objc open func sliderPanned(_ sender: UIPanGestureRecognizer) {
         if let thumb = sender.view as? StyledSliderThumb {
             self.thumbPanned(thumb, sender: sender)
         }
@@ -1024,7 +1024,7 @@ public protocol GenericStyleSliderSeparatorTouchDelegate {
         return nil
     }
     
-    func assignSeparatorTexts() {
+    open func assignSeparatorTexts() {
         for idx in 0..<self.separatorLabels.count {
             self.assignSeparatorText(idx)
         }
@@ -1120,7 +1120,7 @@ public protocol GenericStyleSliderSeparatorTouchDelegate {
         }
     }
     
-    func assignThumbFontAndColor(_ thumb: StyledSliderThumb) {
+    open func assignThumbFontAndColor(_ thumb: StyledSliderThumb) {
         thumb.font = self.thumbFont
         thumb.textColor = self.thumbTextColor
         if let thumbSizeInfo = thumb.sizeInfo {
@@ -1148,7 +1148,7 @@ public protocol GenericStyleSliderSeparatorTouchDelegate {
         return pp / ps
     }
     
-    func assignThumbTexts() {
+    open func assignThumbTexts() {
         for idx in 0..<self.thumbList.thumbs.count {
             self.assignThumbText(idx)
         }
