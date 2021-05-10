@@ -28,6 +28,7 @@
  */
 
 import UIKit
+import ColorExtensions
 
 @IBDesignable
 open class FlexSlider: GenericStyleSlider, GenericStyleSliderDelegate {

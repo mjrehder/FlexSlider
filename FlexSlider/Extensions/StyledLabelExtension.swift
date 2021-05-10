@@ -29,6 +29,7 @@
 
 import UIKit
 import StyledLabel
+import StringSizeCalculationExtension
 
 extension StyledLabel {
     

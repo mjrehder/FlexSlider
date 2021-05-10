@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'FlexSlider'
-  s.version          = '1.0'
+  s.version          = '1.0.1'
   s.license          = 'MIT'
   s.summary          = 'Flexible slider components with style'
   s.homepage         = 'https://github.com/mjrehder/FlexSlider.git'
@@ -11,6 +11,8 @@ Pod::Spec.new do |s|
 
   s.dependency 'StyledLabel'
   s.dependency 'FlexControls'
+  s.dependency 'StringSizeCalculationExtension'
+  s.dependency 'ColorExtensions'
 
   s.framework    = 'UIKit'
   s.source_files = 'FlexSlider/**/*.swift'

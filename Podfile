@@ -5,7 +5,9 @@ target 'FlexSlider' do
 
   pod 'StyledLabel'
   pod 'FlexControls'
-  
+  pod 'StringSizeCalculationExtension'
+  pod 'ColorExtensions'
+
   target 'FlexSliderTests' do
   end
 

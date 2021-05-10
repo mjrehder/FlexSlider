@@ -30,6 +30,7 @@
 import UIKit
 import StyledLabel
 import FlexControls
+import ColorExtensions
 
 public protocol GenericStyleSliderDelegate {
     func textOfThumb(_ index: Int) -> String?

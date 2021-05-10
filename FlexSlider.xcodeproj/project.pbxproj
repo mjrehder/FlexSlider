@@ -52,16 +52,10 @@
 		6903A3C0264566540020350C /* SnappingThumbBehaviour.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6903A3BE264566540020350C /* SnappingThumbBehaviour.swift */; };
 		6903A3C2264566700020350C /* PositionUpdateTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6903A3C1264566700020350C /* PositionUpdateTimer.swift */; };
 		6903A3C3264566700020350C /* PositionUpdateTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6903A3C1264566700020350C /* PositionUpdateTimer.swift */; };
-		6903A3C92646A03D0020350C /* UIColorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6903A3C82646A03D0020350C /* UIColorExtensions.swift */; };
-		6903A3CA2646A03D0020350C /* UIColorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6903A3C82646A03D0020350C /* UIColorExtensions.swift */; };
 		6903A3CC2646A14D0020350C /* StyledSliderElementFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6903A3CB2646A14D0020350C /* StyledSliderElementFactory.swift */; };
 		6903A3CD2646A14D0020350C /* StyledSliderElementFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6903A3CB2646A14D0020350C /* StyledSliderElementFactory.swift */; };
 		6903A3CF2646A2DB0020350C /* StyledLabelExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6903A3CE2646A2DB0020350C /* StyledLabelExtension.swift */; };
 		6903A3D02646A2DB0020350C /* StyledLabelExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6903A3CE2646A2DB0020350C /* StyledLabelExtension.swift */; };
-		6903A3D22646A3270020350C /* NSAttributedStringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6903A3D12646A3270020350C /* NSAttributedStringExtension.swift */; };
-		6903A3D32646A3270020350C /* NSAttributedStringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6903A3D12646A3270020350C /* NSAttributedStringExtension.swift */; };
-		6903A3D52646A3550020350C /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6903A3D42646A3550020350C /* StringExtension.swift */; };
-		6903A3D62646A3550020350C /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6903A3D42646A3550020350C /* StringExtension.swift */; };
 		7ECADEAAE5FB6DFD61235A50 /* Pods_FlexSlider_FlexSliderTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18305B6EA2550C8741B9A6DC /* Pods_FlexSlider_FlexSliderTests.framework */; };
 		C11539AD8E4226C3BACE0745 /* Pods_FlexSlider.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F05E7646A7B6A5279AA7233D /* Pods_FlexSlider.framework */; };
 /* End PBXBuildFile section */
@@ -108,11 +102,8 @@
 		6903A3B0264563760020350C /* StyledSliderSeparator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StyledSliderSeparator.swift; sourceTree = "<group>"; };
 		6903A3BE264566540020350C /* SnappingThumbBehaviour.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnappingThumbBehaviour.swift; sourceTree = "<group>"; };
 		6903A3C1264566700020350C /* PositionUpdateTimer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PositionUpdateTimer.swift; sourceTree = "<group>"; };
-		6903A3C82646A03D0020350C /* UIColorExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtensions.swift; sourceTree = "<group>"; };
 		6903A3CB2646A14D0020350C /* StyledSliderElementFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StyledSliderElementFactory.swift; sourceTree = "<group>"; };
 		6903A3CE2646A2DB0020350C /* StyledLabelExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StyledLabelExtension.swift; sourceTree = "<group>"; };
-		6903A3D12646A3270020350C /* NSAttributedStringExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSAttributedStringExtension.swift; sourceTree = "<group>"; };
-		6903A3D42646A3550020350C /* StringExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
 		72CF148940E1549844F81234 /* Pods-FlexSlider.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlexSlider.release.xcconfig"; path = "Target Support Files/Pods-FlexSlider/Pods-FlexSlider.release.xcconfig"; sourceTree = "<group>"; };
 		F05E7646A7B6A5279AA7233D /* Pods_FlexSlider.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FlexSlider.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -226,10 +217,7 @@
 		6903A3C72646A0270020350C /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				6903A3C82646A03D0020350C /* UIColorExtensions.swift */,
 				6903A3CE2646A2DB0020350C /* StyledLabelExtension.swift */,
-				6903A3D12646A3270020350C /* NSAttributedStringExtension.swift */,
-				6903A3D42646A3550020350C /* StringExtension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -430,7 +418,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6903A3D22646A3270020350C /* NSAttributedStringExtension.swift in Sources */,
 				6903A3C2264566700020350C /* PositionUpdateTimer.swift in Sources */,
 				6903A392264562060020350C /* GenericStyleSlider.swift in Sources */,
 				6903A38E264562060020350C /* FlexFlickButton.swift in Sources */,
@@ -450,11 +437,9 @@
 				6903A3B5264563760020350C /* StyledSliderThumbList.swift in Sources */,
 				6903A3A92645632C0020350C /* SliderSeparatorSizeInfo.swift in Sources */,
 				6903A3A52645632C0020350C /* SliderItemSizeInfo.swift in Sources */,
-				6903A3C92646A03D0020350C /* UIColorExtensions.swift in Sources */,
 				6903A39F2645632C0020350C /* SliderThumbSizeInfo.swift in Sources */,
 				6903A3B1264563760020350C /* StyledSliderItem.swift in Sources */,
 				6903A39D2645632C0020350C /* FlexFlickActionItem.swift in Sources */,
-				6903A3D52646A3550020350C /* StringExtension.swift in Sources */,
 				6903A3BB264563760020350C /* StyledSliderSeparator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -468,7 +453,6 @@
 				6903A3A62645632C0020350C /* SliderItemSizeInfo.swift in Sources */,
 				6903A389264562060020350C /* FlexMutableSlider.swift in Sources */,
 				6903A3A42645632C0020350C /* MutableSliderThumbItem.swift in Sources */,
-				6903A3D62646A3550020350C /* StringExtension.swift in Sources */,
 				6903A3A02645632C0020350C /* SliderThumbSizeInfo.swift in Sources */,
 				6903A3BA264563760020350C /* StyledSliderThumb.swift in Sources */,
 				6903A3B2264563760020350C /* StyledSliderItem.swift in Sources */,
@@ -480,8 +464,6 @@
 				6903A38D264562060020350C /* FlexSlider.swift in Sources */,
 				6903A38B264562060020350C /* FlexSnapStepper.swift in Sources */,
 				6903A3D02646A2DB0020350C /* StyledLabelExtension.swift in Sources */,
-				6903A3CA2646A03D0020350C /* UIColorExtensions.swift in Sources */,
-				6903A3D32646A3270020350C /* NSAttributedStringExtension.swift in Sources */,
 				6903A3AA2645632C0020350C /* SliderSeparatorSizeInfo.swift in Sources */,
 				6903A38F264562060020350C /* FlexFlickButton.swift in Sources */,
 				6903A3CD2646A14D0020350C /* StyledSliderElementFactory.swift in Sources */,
@@ -645,6 +627,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.rehsco.FlexSlider;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
@@ -674,6 +657,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.rehsco.FlexSlider;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
