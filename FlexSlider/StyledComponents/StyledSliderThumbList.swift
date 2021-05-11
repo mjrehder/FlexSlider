@@ -31,7 +31,7 @@ import UIKit
 import FlexControls
 
 open class StyledSliderThumbList {
-    var thumbs: [StyledSliderThumb] = []
+    open var thumbs: [StyledSliderThumb] = []
     
     open var maximumValue: Double = 100 {
         didSet {
