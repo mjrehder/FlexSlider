@@ -56,6 +56,8 @@
 		6903A3CD2646A14D0020350C /* StyledSliderElementFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6903A3CB2646A14D0020350C /* StyledSliderElementFactory.swift */; };
 		6903A3CF2646A2DB0020350C /* StyledLabelExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6903A3CE2646A2DB0020350C /* StyledLabelExtension.swift */; };
 		6903A3D02646A2DB0020350C /* StyledLabelExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6903A3CE2646A2DB0020350C /* StyledLabelExtension.swift */; };
+		698B03A426512FDE00FEDB3B /* FlexSwitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698B03A326512FDE00FEDB3B /* FlexSwitch.swift */; };
+		698B03A526512FDE00FEDB3B /* FlexSwitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698B03A326512FDE00FEDB3B /* FlexSwitch.swift */; };
 		7ECADEAAE5FB6DFD61235A50 /* Pods_FlexSlider_FlexSliderTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18305B6EA2550C8741B9A6DC /* Pods_FlexSlider_FlexSliderTests.framework */; };
 		C11539AD8E4226C3BACE0745 /* Pods_FlexSlider.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F05E7646A7B6A5279AA7233D /* Pods_FlexSlider.framework */; };
 /* End PBXBuildFile section */
@@ -104,6 +106,7 @@
 		6903A3C1264566700020350C /* PositionUpdateTimer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PositionUpdateTimer.swift; sourceTree = "<group>"; };
 		6903A3CB2646A14D0020350C /* StyledSliderElementFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StyledSliderElementFactory.swift; sourceTree = "<group>"; };
 		6903A3CE2646A2DB0020350C /* StyledLabelExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StyledLabelExtension.swift; sourceTree = "<group>"; };
+		698B03A326512FDE00FEDB3B /* FlexSwitch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlexSwitch.swift; sourceTree = "<group>"; };
 		72CF148940E1549844F81234 /* Pods-FlexSlider.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlexSlider.release.xcconfig"; path = "Target Support Files/Pods-FlexSlider/Pods-FlexSlider.release.xcconfig"; sourceTree = "<group>"; };
 		F05E7646A7B6A5279AA7233D /* Pods_FlexSlider.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FlexSlider.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -159,6 +162,7 @@
 				6903A386264562060020350C /* FlexDoubleSlider.swift */,
 				6903A385264562060020350C /* FlexFlickButton.swift */,
 				6903A382264562060020350C /* FlexMutableSlider.swift */,
+				698B03A326512FDE00FEDB3B /* FlexSwitch.swift */,
 				6903A384264562060020350C /* FlexSlider.swift */,
 				6903A383264562060020350C /* FlexSnapStepper.swift */,
 				6903A387264562060020350C /* GenericStyleSlider.swift */,
@@ -422,6 +426,7 @@
 				6903A392264562060020350C /* GenericStyleSlider.swift in Sources */,
 				6903A38E264562060020350C /* FlexFlickButton.swift in Sources */,
 				6903A3CC2646A14D0020350C /* StyledSliderElementFactory.swift in Sources */,
+				698B03A426512FDE00FEDB3B /* FlexSwitch.swift in Sources */,
 				6903A3B9264563760020350C /* StyledSliderThumb.swift in Sources */,
 				6903A38C264562060020350C /* FlexSlider.swift in Sources */,
 				6903A3BF264566540020350C /* SnappingThumbBehaviour.swift in Sources */,
@@ -470,6 +475,7 @@
 				6903A393264562060020350C /* GenericStyleSlider.swift in Sources */,
 				6903A391264562060020350C /* FlexDoubleSlider.swift in Sources */,
 				6903A3B4264563760020350C /* StyledControlDirection.swift in Sources */,
+				698B03A526512FDE00FEDB3B /* FlexSwitch.swift in Sources */,
 				6903A3C0264566540020350C /* SnappingThumbBehaviour.swift in Sources */,
 				6903A37726455EB50020350C /* FlexSliderTests.swift in Sources */,
 			);
@@ -627,7 +633,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0.4;
+				MARKETING_VERSION = 1.0.5;
 				PRODUCT_BUNDLE_IDENTIFIER = com.rehsco.FlexSlider;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
@@ -657,7 +663,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0.4;
+				MARKETING_VERSION = 1.0.5;
 				PRODUCT_BUNDLE_IDENTIFIER = com.rehsco.FlexSlider;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
@@ -671,7 +677,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 197497E3A0669957DEA5C8A4 /* Pods-FlexSlider-FlexSliderTests.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "${inherited}";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = V7Y9TF9C7U;
 				INFOPLIST_FILE = FlexSliderTests/Info.plist;
@@ -691,7 +697,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5038D58F316F03751A77C989 /* Pods-FlexSlider-FlexSliderTests.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "${inherited}";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = V7Y9TF9C7U;
 				INFOPLIST_FILE = FlexSliderTests/Info.plist;
