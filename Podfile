@@ -1,4 +1,4 @@
-platform :ios, '12.0'
+platform :ios, '12.1'
 
 target 'FlexSlider' do
   use_frameworks!
